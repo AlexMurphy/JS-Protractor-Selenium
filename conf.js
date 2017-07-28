@@ -10,7 +10,7 @@ exports.config = {
     },
 
     multiCapabilities: [{
-        testobject_api_key: process.env.TESTOBJECT_API_KEY,
+        testobject_api_key: '2065298F3FB24F229F30BE75CDE8C989',
         testobject_device: 'Google_Pixel_real',
         testobject_test_name: "android - test name",
         testobject_cache_device: "true",
