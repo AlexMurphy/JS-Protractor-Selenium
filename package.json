@@ -7,8 +7,10 @@
     "test": "./node_modules/.bin/protractor conf.js"
   },
   "devDependencies": {
-  	"protractor": "latest",
-  	"https-proxy-agent": "latest",
+    "cucumber": "^2.3.1",
+    "https-proxy-agent": "latest",
+    "protractor": "latest",
+    "protractor-cucumber-framework": "^3.1.2",
     "testobject_api": "latest"
   }
 }
