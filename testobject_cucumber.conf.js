@@ -1,7 +1,7 @@
 exports.config = {
 
 	seleniumAddress: 'https://eu1.appium.testobject.com/wd/hub',
-	
+
 	// Spec patterns are relative to this directory.
 	specs: [
 	'features/*.feature'
@@ -13,6 +13,8 @@ exports.config = {
 		var caps = browser.getCapabilities();
 	},
 
+	getPageTimeout: 60000,
+	allScriptsTimeout: 500000,
 	framework: 'custom',
 	// path relative to the current config file
 	frameworkPath: require.resolve('protractor-cucumber-framework'),
