@@ -32,7 +32,7 @@ exports.config = {
 	],
 
 	cucumberOpts: {
-	require: ['env.js', 'features/step_definitions/stepDefinitions.js'],
+	require: ['env.js', 'reporter.js', 'screenshot.js', 'features/step_definitions/stepDefinitions.js'],
 	tags: false,
 	format: 'pretty',
 	profile: false,
